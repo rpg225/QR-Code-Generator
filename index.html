@@ -5,17 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>QR Code Generator</title>
 </head>
 <body>
     <section>
+        <div class="heading">
+            <h1>Text to QR Code Generator</h1>
+        <h3>Please enter the text in the text. When you are finished,
+            click download.
+        </h3>
+        </div>
         <div class="row">
+          
+            
             <input type="color" class="light" value="ffffff">
             <input type="color" class="dark">
         <select class="sizes">
             <option value="100">100x100</option>
             <option value="200">200x200</option>
-            <option value="300"300*300></option>
+            <option value="300">300x300></option>
             <option value="400">400x400</option>
             <option value="500">500x500</option>
             <option value="600">600x600</option>
@@ -31,10 +40,12 @@
             <a href="" class="download btn" download="QRCode">
                 <span>Download</span>
                 <!-- use download button from font awesome-->
+                <i class="fa-regular fa-circle-down"></i>
             </a>
             <button class="btn share-btn">
                 <span>Share</span>
                 <!-- use share button from -->
+                <i class="fa-solid fa-share"></i>
             </button>
         </div>
     </section>
